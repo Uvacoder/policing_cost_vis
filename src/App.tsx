@@ -5,7 +5,7 @@ import BudgetComparison from "./BudgetComparison/BudgetComparison";
 import PoliceToCivilianRatio from "./PoliceToCivilianRatio/PoliceToCivilianRatio";
 import BudgetPerCapita from "./BudgetPerCapita/BudgetPerCapita";
 import { City } from "./City";
-import { useMediaQuery } from "beautiful-react-hooks";
+// import { useMediaQuery } from "beautiful-react-hooks";
 
 export const App: React.FC = () => {
 //  const isSmallScreen = useMediaQuery("(max-width: 1200px)");
