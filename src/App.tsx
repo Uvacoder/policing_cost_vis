@@ -8,7 +8,7 @@ import { City } from "./City";
 import { useMediaQuery } from "beautiful-react-hooks";
 
 export const App: React.FC = () => {
-  const isSmallScreen = useMediaQuery("(max-width: 1200px)");
+//  const isSmallScreen = useMediaQuery("(max-width: 1200px)");
   const [selectedCity, setSelectedCity] = useState<City>(null);
   const onMouseover = useCallback((newCity: City) => {
     setSelectedCity(newCity);
